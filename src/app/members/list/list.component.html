@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row row-cols-4 ">
+    <div *ngFor="let m of members"class="card m-4" style="width: 20rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{m.name}}</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">{{m.joiningDate | date : 'mediumDate'}}</h6>          
+          <a [routerLink]="[m.id,'view']" class=" card-link btn btn-primary">View</a>
+          <a [routerLink]="[m.id,'edit']" class="card-link btn btn-info">Update</a>
+          <button (click)="deletemembers(m.id)" class="card-link btn btn-danger">Delete</button>
+        </div>
+      </div>
+</div>
+<a class="btn btn-primary" [routerLink]="['add']">Add Members</a>
+</div>

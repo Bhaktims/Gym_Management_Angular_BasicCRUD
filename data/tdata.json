@@ -1,0 +1,24 @@
+{
+    "trainers":[
+        {
+            "id":1,
+            "image":"assets/image1.jpg",
+            "name":"XYZ",
+            "age":"40",
+            "gender":"male",
+            "phone":"9898998809",
+            "experience":"10yrs",
+            "availability":"Morning"
+        },
+        {
+            "id":2,
+            "image":"assets/image4.jpeg",
+            "name":"PQR",
+            "age":"35",
+            "gender":"female",
+            "phone":"9898998809",
+            "experience":"5 yrs",
+            "availability":"Evening"
+        }
+    ]
+}

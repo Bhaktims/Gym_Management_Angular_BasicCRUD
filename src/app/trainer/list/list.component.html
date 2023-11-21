@@ -1,0 +1,15 @@
+
+<div class="container">
+    <div class="row row-cols-3">
+        <div *ngFor="let t of trainers "class="card m-2" style="width: 20rem">
+            <img [src] = "t.image" class="card-img-top" [ngStyle] ="imgStyle">
+            <div class="card-body">
+              <h5 class="card-title">{{t.name}}</h5>
+              <a [routerLink]="['view',t.id]" class=" card-link btn btn-primary">View</a>
+              <a [routerLink]="['edit',t.id]" class="card-link btn btn-info">Update</a>
+              <button (click)="deletetrainers(t.id)"class="card-link btn btn-danger">Delete</button>
+            </div>
+          </div>
+    </div>
+    <a class="btn btn-primary" [routerLink]="['add']">Add Trainers</a>
+</div>

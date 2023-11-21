@@ -1,0 +1,89 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "ABC",
+      "age": "40",
+      "gender": "male",
+      "phone": "9898787889",
+      "email": "abc@gmail.com",
+      "package": "monthly",
+      "trainer": "xyz",
+      "joiningDate": "Wed Oct 1 2023 11:31:31 GMT+0530 (India Standard Time)"
+    },
+    {
+      "id": 2,
+      "name": "XYZ",
+      "age": "30",
+      "gender": "Female",
+      "phone": "7878899898",
+      "email": "xyz@gmail.com",
+      "package": "yearly",
+      "trainer": "pqr",
+      "joiningDate": "Wed Oct 1 2022 11:31:31 GMT+0530 (India Standard Time)"
+    },
+    {
+      "name": "meena",
+      "age": 35,
+      "gender": "female",
+      "phone": "7845128996",
+      "email": "thirduser@gmail.com",
+      "package": "Half Yearly",
+      "trainer": "XYZ",
+      "joiningDate": "2023-11-01",
+      "id": 5
+    },
+    {
+      "name": "bhakti",
+      "age": 33,
+      "gender": "female",
+      "phone": "9833633864",
+      "email": "bhaktishan10@gmail.com",
+      "package": "Monthly",
+      "trainer": "PQR",
+      "joiningDate": "2023-09-01",
+      "id": 6
+    }
+  ],
+  "trainers": [
+    {
+      "image": "assets/image6.jpg",
+      "name": "Rose",
+      "age": 25,
+      "phone": "7845128996",
+      "experience": 4,
+      "availability": "Morning",
+      "id": 5
+    },
+    {
+      "image": "assets/image3.jpg",
+      "name": "Geeta",
+      "age": 36,
+      "gender": "female",
+      "phone": "7845128996",
+      "experience": 7,
+      "availability": "Evening",
+      "id": 6
+    },
+    {
+      "image": "assets/image7.jpeg",
+      "name": "Jack",
+      "age": 40,
+      "gender": "male",
+      "phone": "7845128996",
+      "experience": 15,
+      "availability": "Morning",
+      "id": 8
+    },
+    {
+      "image": "assets/image2.jpg",
+      "name": "Achintya Vartak",
+      "age": 30,
+      "gender": "male",
+      "phone": "4567891230",
+      "experience": 3,
+      "availability": "Evening",
+      "id": 9
+    }
+  ]
+}
